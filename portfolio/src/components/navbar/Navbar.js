@@ -1,10 +1,11 @@
 import React from "react";
+import "./navbar.css";
 
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-custom">
-      <a className="navbar-brand text-white" href="#">
-        adam juwig
+    <nav className="navbar navbar-expand-lg navbar-light navbar-custom shadow">
+      <a className="navbar-brand text-white" href="/">
+        <h3>ADAM JUWIG</h3>
       </a>
       <button
         className="navbar-toggler"
@@ -22,17 +23,17 @@ export const Navbar = () => {
         <ul className="navbar-nav ml-auto text-white">
           <li className="nav-item active">
             <a className="nav-link text-white" href="/">
-              about <span className="sr-only">(current)</span>
+              <button type="button" className="btn btn-outline-light">about</button> <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="/projects">
-              projects
+            <button type="button" className="btn btn-outline-light"> projects</button>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link text-white" href="/contact">
-              contact
+            <button type="button" className="btn btn-outline-light"> contact</button>
             </a>
           </li>
         </ul>

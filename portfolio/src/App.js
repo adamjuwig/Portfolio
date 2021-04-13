@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import '@fortawesome/free-brands-svg-icons'
+import '@fortawesome/free-brands-svg-icons';
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import About from "./components/about/About";

@@ -6,11 +6,8 @@
     height: 5%;
     background-color: #64c1e4;
     color:white;
-    text-align: center;
+    text-align: center; 
+      
  }
- .ptag {
-    font-size: 18pt;
- }
- .imgTag {
-     margin-left: 20px;
- }
+ 
+ 

@@ -1,0 +1,25 @@
+.section {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.socialtag {    
+    color: black;    
+ }
+
+ .socialtag a:hover {        
+        color: white;
+ }
+
+ .linkedin{
+    color: black;
+    padding-right: 8px;
+ }
+ .github{
+     color: black;  
+     padding-right: 8px;
+ }
+ .twitter {
+    color: black;  
+    padding-right: 8px;
+ }
+ 
