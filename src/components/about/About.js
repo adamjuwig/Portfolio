@@ -16,9 +16,8 @@ const About = () => {
               </div>
               <div className="col-md-12">
                 <div>
-                  Hi! My Name is Adam Juwig. I am a full stack web development
-                  student based out of Tempe, AZ. I am currently enrolled in the
-                  full stack coding bootcamp through the University of Arizona.
+                  Hi, I'm Adam! I am a recent graduate of the
+                  Full Stack Coding bootcamp through the University of Arizona.
                   I am a former professional musician and currently a restaurant
                   general manager. Both, of which have taught me about business
                   management, client relations, problem solving, organization
