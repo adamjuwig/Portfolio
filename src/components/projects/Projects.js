@@ -6,7 +6,7 @@ import Budget from "./images/budget.png";
 import EmpDirectory from "./images/empdirectory.png";
 import Password from "./images/password.png";
 import Weather from "./images/weather.png";
-import FirstPortfolio from "./images/firstport.png";
+import NoteTaker from "./images/notetakerSS.png";
 
 const Projects = () => {
   return (
@@ -26,92 +26,96 @@ const Projects = () => {
             <div class="card-block">            
               <h4 class="card-title text-center">Pitch A Tent</h4>              
               
-              <a href="https://adamjuwig.github.io/pitch-a-tent/" target="_blank" className="text-secondary" rel="noreferrer">GitHub</a>
+              <a href="https://adamjuwig.github.io/pitch-a-tent/" target="_blank" className="text-secondary ml-2" rel="noreferrer">Demo</a>
+              <a href="https://github.com/adamjuwig/pitch-a-tent/" target="_blank" className="text-secondary float-right mr-2" rel="noreferrer">Repo</a>
              
             </div>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card">
+        <div className="col-md-4">
+          <div className="card">
           <img
         src={Budget}
-        alt="Pitch A Tent"
+        alt="Budget Tracker"
         style={{ height: "325px" }}
         className="center"
       />
-            <div class="card-block">            
-              <h4 class="card-title text-center">Budget Tracker - PWA</h4>              
+            <div className="card-block">            
+              <h4 className="card-title text-center">Budget Tracker - PWA</h4>              
               
-              <a href="https://github.com/adamjuwig/Budget-Tracker" target="_blank" class="text-secondary" rel="noreferrer">GitHub</a>
+              <a href="https://github.com/adamjuwig/Budget-Tracker" target="_blank" className="text-secondary d-flex justify-content-center" rel="noreferrer">Repo</a>
              
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
+        <div className="col-md-4">
+          <div className="card">
           <img
         src={EmpDirectory}
-        alt="Pitch A Tent"
+        alt="React Employee Directory"
         style={{ height: "325px" }}
         className="center"
       />
-            <div class="card-block">            
-              <h4 class="card-title text-center">Employee Directory</h4>              
+            <div className="card-block">            
+              <h4 className="card-title text-center">Employee Directory - React</h4>              
               
-              <a href="https://github.com/adamjuwig/React-Employee-Directory" target="_blank" class="text-secondary" rel="noreferrer">GitHub</a>
+              <a href="https://github.com/adamjuwig/React-Employee-Directory" target="_blank" className="text-secondary d-flex justify-content-center" rel="noreferrer">Repo</a>
              
             </div>
           </div>
         </div>
       </div>
       <br />
-
-      <div class="row">
-      <div class="col-md-4">
-          <div class="card">
+{/* SECOND ROW */}
+      <div className="row">
+      <div className="col-md-4">
+          <div className="card">
           <img
         src={Password}
         alt="Password Generator"
         style={{ height: "325px" }}
         className="center"
       />
-            <div class="card-block">            
-              <h4 class="card-title text-center">Password Generator</h4>              
+            <div className="card-block">            
+              <h4 className="card-title text-center">Password Generator</h4>              
               
-              <a href="https://adamjuwig.github.io/password-generator/" target="_blank" class="text-secondary" rel="noreferrer">GitHub</a>
+              <a href="https://adamjuwig.github.io/password-generator/" target="_blank" className="text-secondary ml-2" rel="noreferrer">Demo</a>
+              <a href="https://github.com/adamjuwig/password-generator/" target="_blank" className="text-secondary float-right mr-2" rel="noreferrer">Repo</a>
              
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
+        <div className="col-md-4">
+          <div className="card">
           <img
         src={Weather}
         alt="Weather Dashboard"
         style={{ height: "325px" }}
         className="center"
       />
-            <div class="card-block">            
-              <h4 class="card-title text-center">Weather Dashboard</h4>              
+            <div className="card-block">            
+              <h4 className="card-title text-center">Weather Dashboard</h4>              
               
-              <a href="https://github.com/adamjuwig/weather-dashboard" target="_blank" class="text-secondary" rel="noreferrer">GitHub</a>
+              <a href="https://adamjuwig.github.io/weather-dashboard" target="_blank" class="text-secondary ml-2" rel="noreferrer">Demo</a>
+              <a href="https://github.com/adamjuwig/weather-dashboard" target="_blank" class="text-secondary float-right mr-2" rel="noreferrer">Repo</a>
+              
              
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
+        <div className="col-md-4">
+          <div className="card">
           <img
-        src={FirstPortfolio}
-        alt="First Portfolio"
+        src={NoteTaker}
+        alt="Note Taker"
         style={{ height: "325px" }}
         className="center"
       />
-            <div class="card-block">            
-              <h4 class="card-title text-center">First Portfolio</h4>              
-              
-              <a href="https://adamjuwig.github.io/responsive-portfolio/" target="_blank" class="text-secondary" rel="noreferrer">GitHub</a>
+            <div className="card-block">            
+              <h4 className="card-title text-center">Note Taker</h4>              
+              <a href="https://boiling-headland-50236.herokuapp.com/" target="_blank" class="text-secondary ml-2" rel="noreferrer">Demo</a>
+              <a href="https://github.com/adamjuwig/note-taker/" target="_blank" class="text-secondary float-right mr-2" rel="noreferrer">Repo</a>
              
             </div>
           </div>

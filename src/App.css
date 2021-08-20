@@ -1,9 +1,15 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
 .App {
   text-align: center;
+  font-family: 'Montserrat';
 }
 
 body{
-  font-family: 'Montserrat', sans-serif;  
+  font-family: 'Montserrat';  
 }
 
 .App-logo {

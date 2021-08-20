@@ -11,7 +11,7 @@ const Header = () => {
         src={Image}
         alt="Cartoon"
         style={{ width: "325px" }}
-        className="center"
+        className="center cartoon"
       />
     </div>
   );

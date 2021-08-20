@@ -16,31 +16,31 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="row">'
+            <div className="row">
             
-              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0 socialtag">
+              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0">
                 <i class="fa fa-phone fa-3x"></i>
                 <div>(480) 717-1005</div>
               </div>
 
-              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0 socialtag">
+              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0">
               <i class="fa fa-linkedin fa-3x"></i>
-              <div><a href="http://www.linkedin.com/in/adamjuwig" class="badge badge-dark">LinkedIn</a></div>            
+              <div><a href="http://www.linkedin.com/in/adamjuwig" class="badge socialLink"target="_blank" rel="noreferrer" >LinkedIn</a></div>            
               </div> 
               
-              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0 socialtag">
+              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0">
               <i class="fa fa-github fa-3x"></i>
-              <div><a href="http://www.github.adamjuwig" class="badge badge-dark">GitHub</a></div>            
+              <div><a href="http://www.github.com/adamjuwig" class="badge socialLink" target="_blank" rel="noreferrer">GitHub</a></div>            
               </div> 
 
-              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0 socialtag">
+              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0">
               <i class="fa fa-envelope fa-3x"></i>
-              <div><a href="mailto:adamjuwig@gmail.com" class="badge badge-dark">Email</a></div>            
+              <div><a href="mailto:adamjuwig@gmail.com" class="badge socialLink" target="_blank" rel="noreferrer">Email</a></div>            
               </div> 
               
-              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0 pb-4 socialtag">
+              <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0 pb-4">
               <i class="fa fa-file fa-3x"></i>
-              <div><a href="mailto:adamjuwig@gmail.com" class="badge badge-dark">Resume</a></div>            
+              <div><a href="https://drive.google.com/file/d/1_aGNQJn2kWqFLNd4xINFBBQmTs4BivF7/view?usp=sharing" class="badge socialLink">Resume</a></div>            
               </div>
               
 

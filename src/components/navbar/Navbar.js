@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-custom shadow">
       <a className="navbar-brand text-white" href="/">
-        <h3>ADAM JUWIG</h3>
+        <h3 className="textShadow">ADAM JUWIG</h3>
       </a>
       <button
         className="navbar-toggler"

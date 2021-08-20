@@ -1,7 +1,25 @@
-.center{
-    text-align: center; 
-    height: 100%;
-    display: flex; 
-    align-items: center;
-    justify-content:center;
-    }
+.center {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fade {
+  display: inline-block;
+
+  color: black;
+  animation: fadeIn ease-in-out forwards 2s;
+  -webkit-animation: fadeIn ease-in-out forwards 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+

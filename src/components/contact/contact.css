@@ -2,15 +2,21 @@
     padding-top: 20px;
     padding-bottom: 60px;
 }
-.socialtag {    
-    color: black;    
- }
+.socialLink {
+    color: #ffffff;
+    border: none;    
+    display: inline-block;    
+    background: #000000;
+    text-decoration: none;
+    -webkit-transition: background 1s; 
+    transition: background 1s; 
+}
+.socialLink:hover {
+    background: #64c1e4;
+    color: #FFFFFF;
+}
 
- .socialtag a:hover {        
-        color: white;
- }
-
- .linkedin{
+ /* .linkedin{
     color: black;
     padding-right: 8px;
  }
@@ -22,4 +28,4 @@
     color: black;  
     padding-right: 8px;
  }
- 
+  */
