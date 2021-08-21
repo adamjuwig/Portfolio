@@ -1,13 +1,22 @@
 import React from "react";
 import "./about.css";
+import Image from "./images/cartoonHiRes.png";
 
 
 const About = () => {
   return (
-    <div className="fade d-flex justify-content-center">
+   <div className="container">
+      <div className="d-flex justify-content-center mt-4">
+      <img
+        src={Image}
+        alt="Cartoon"
+        style={{ width: "325px" }}
+        className="center cartoon fade"
+      />
+    </div>
       <section className="section">
-        <div className="container">
-          <div className="card shadow">
+        <div className="container fade col-xs-8 col-sm-8 col-md-12 col-lg-12">
+          <div className="card shadow fade">
             <div className="card-body">
               <div className="row">
                 <div className="col-md-12">
@@ -15,7 +24,7 @@ const About = () => {
                   <hr />
                 </div>
               </div>
-              <div className="col-md-12 fade">
+              <div className="fade">
                 <div>
                   Hi, I'm Adam! I am a recent graduate of the Full Stack Coding
                   bootcamp through the University of Arizona. My journey in web
@@ -27,14 +36,15 @@ const About = () => {
                   management, client relations, problem solving, organization
                   and the importance of teamwork. I have strong interests in
                   front end technologies, UI/UX design, and am always looking
-                  to develop new skills. In my free time, I enjoy cooking,
+                  to develop new skills. In my free time, I enjoy playing guitar,
                   hiking, fishing, camping, geocaching and DIY projects.
                 </div>
               </div>
             </div>
           </div>
           <br />
-          <div className="d-flex justify-content-center">
+          <br />
+          <div className="d-flex justify-content-center fade">
             <span className="badge badge-secondary text-white p-1 m-1 font-weight-light">
               HTML/CSS
             </span>

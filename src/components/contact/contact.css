@@ -2,6 +2,15 @@
     padding-top: 20px;
     padding-bottom: 60px;
 }
+
+.contact {
+    max-width: 1000px;   
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    padding: 25px 5%;
+    margin: 0 auto;
+  }
 .socialLink {
     color: #ffffff;
     border: none;    
@@ -15,7 +24,9 @@
     background: #64c1e4;
     color: #FFFFFF;
 }
-
+.typeEffect{
+    font-size: 40px;
+}
  /* .linkedin{
     color: black;
     padding-right: 8px;

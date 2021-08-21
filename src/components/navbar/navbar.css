@@ -1,3 +1,20 @@
 .textShadow {
   text-shadow: #000000 1px 0 10px;
 }
+@media only screen and (max-width: 600px) {
+  .navbar {
+      justify-content: space-around;
+  }
+
+  .about {
+      order: 0;
+  }
+
+  .projects {
+      order: 1;
+  }
+
+  .contact {
+      order: 2;
+  }
+}
