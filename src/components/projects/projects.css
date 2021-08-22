@@ -1,4 +1,17 @@
-.link {
-    color: black;
+/* .link {
+    color: rgb(153, 95, 95);
     text-align: center;
+} */
+.socialLink {
+    color: #ffffff;
+    border: none;    
+    display: inline-block;    
+    background: #000000;
+    text-decoration: none;
+    -webkit-transition: background 1s; 
+    transition: background 1s; 
+}
+.socialLink:hover {
+    background: #64c1e4;
+    color: #FFFFFF;
 }

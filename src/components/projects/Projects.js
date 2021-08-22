@@ -1,5 +1,5 @@
 import React from "react";
-// import 'projects.css';
+import './projects.css';
 
 import Pitch from "./images/pitch.png";
 import Budget from "./images/budget.png";
@@ -15,13 +15,14 @@ const Projects = () => {
         <div class="container">
           <div class="row hidden-md-up">
             <div class="col-md-4">
-              <div class="card shadow-sm">
+              <div class="card shadow-sm cardFlip">
                 <img
                   src={Pitch}
                   alt="Pitch A Tent"
                   style={{ height: "325px" }}
                   className="center"
                 />
+                
                 <div class="card-block">
                   <h4 class="card-title text-center">Pitch A Tent</h4>
 
