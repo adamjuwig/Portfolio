@@ -16,7 +16,7 @@
     border: none;    
     display: inline-block;    
     background: #000000;
-    text-decoration: none;
+    text-decoration: none!important;
     -webkit-transition: background 1s; 
     transition: background 1s; 
 }

@@ -1,45 +1,94 @@
-import React from "react";
-import "./navbar.css";
+// import React from "react";
+// import { Link } from "react-router-dom";
+// import "./navbar.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
-export const Navbar = () => {
-  return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-custom shadow">
-      <a className="navbar-brand text-white" href="/">
-        <h3 className="textShadow">ADAM JUWIG</h3>
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
+// // BACKUP FILE
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav ml-auto text-white">
-          <li className="nav-item active">
-            <a className="nav-link text-white" href="/">
-              <button type="button" className="btn btn-outline-light about">about</button> <span className="sr-only">(current)</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-white projects" href="/projects">
-            <button type="button" className="btn btn-outline-light"> projects</button>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link text-white" href="/contact">
-            <button type="button" className="btn btn-outline-light"> contact</button>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  );
-};
+// export const Navbar = () => {
+//   return (
+//     <nav className="navbar sticky-top navbar-expand-lg navbar-dark navbar-custom shadow">
+//       <Link to="/" className="navbar-brand text-white">
+//         <h3 className="textShadow">ADAM JUWIG</h3>
+//       </Link>
+//       <button
+//         className="navbar-toggler"
+//         type="button"
+//         data-toggle="collapse"
+//         data-target="#navbarResponsive"
+//         aria-controls="navbarResponsive"
+//         aria-expanded="false"
+//         aria-label="Toggle navigation"
+//       >
+//         <span className="navbar-toggler-icon"></span>
+//       </button>
 
-export default Navbar;
+//       <div className="collapse navbar-collapse" id="navbarResponsive">
+//         <ul className="navbar-nav ml-auto text-white">
+//           <li className="nav-item active">
+//             <Link to="/" className="nav-link text-white">
+//               <button type="button" className="btn btn-outline-light">
+//                 about
+//               </button>{" "}
+//               <span className="sr-only">(current)</span>
+//             </Link>
+//           </li>
+//           <li className="nav-item">
+//             <Link to="/projects" className="nav-link text-white">
+//               <button type="button" className="btn btn-outline-light projects">
+//                 projects
+//               </button>
+//             </Link>
+//           </li>
+//           <li className="nav-item">
+//             <Link to="/contact" className="nav-link text-white">
+//               <button type="button" className="btn btn-outline-light">
+//                 contact
+//               </button>
+//             </Link>
+//           </li>
+//         </ul>
+//       </div>
+//     </nav>
+//   );
+// };
+
+// export default Navbar;
+
+// <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+//   <Container>
+//     <Link to="/" className="navbar-brand text-white">
+//       <h3 className="textShadow">ADAM JUWIG</h3>
+//     </Link>
+//     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+//     <Navbar.Collapse id="responsive-navbar-nav">
+//       <Nav className="me-auto">
+//       <ul className="navbar-nav ml-auto text-white">
+//           <li className="nav-item active">
+//             <Link to="/" className="nav-link text-white">
+//               <button type="button" className="btn btn-outline-light">
+//                 about
+//               </button>{" "}
+//               <span className="sr-only">(current)</span>
+//             </Link>
+//           </li>
+//           <li className="nav-item">
+//             <Link to="/projects" className="nav-link text-white">
+//               <button type="button" className="btn btn-outline-light projects">
+//                 projects
+//               </button>
+//             </Link>
+//           </li>
+//           <li className="nav-item">
+//             <Link to="/contact" className="nav-link text-white">
+//               <button type="button" className="btn btn-outline-light">
+//                 contact
+//               </button>
+//             </Link>
+//           </li>
+//         </ul>
+//         <Nav.Link href="#pricing">Pricing</Nav.Link>
+//       </Nav>
+//     </Navbar.Collapse>
+//   </Container>
+// </Navbar>;

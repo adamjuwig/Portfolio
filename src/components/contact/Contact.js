@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className="col-lg-2 ml-auto text-center mb-5 mb-lg-0">
                   <i class="fa fa-phone fa-3x"></i>
                   <div>
-                  <p className="badge socialLink">(480) 717-1005</p>
+                  <p className="badge socialLink font-weight-light">(480) 717-1005</p>
                   </div>
                 </div>
 
@@ -42,7 +42,7 @@ const Contact = () => {
                   <div>
                     <a
                       href="http://www.linkedin.com/in/adamjuwig"
-                      class="badge socialLink"
+                      class="badge socialLink font-weight-light"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -56,7 +56,7 @@ const Contact = () => {
                   <div>
                     <a
                       href="http://www.github.com/adamjuwig"
-                      class="badge socialLink"
+                      class="badge socialLink font-weight-light"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -70,7 +70,7 @@ const Contact = () => {
                   <div>
                     <a
                       href="mailto:adamjuwig@gmail.com"
-                      class="badge socialLink"
+                      class="badge socialLink font-weight-light"
                       target="_blank"
                       rel="noreferrer"
                     >
@@ -84,7 +84,7 @@ const Contact = () => {
                   <div>
                     <a
                       href="https://drive.google.com/file/d/1_aGNQJn2kWqFLNd4xINFBBQmTs4BivF7/view?usp=sharing"
-                      class="badge socialLink"
+                      class="badge socialLink font-weight-light"
                     >
                       Resume
                     </a>

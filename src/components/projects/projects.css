@@ -2,16 +2,24 @@
     color: rgb(153, 95, 95);
     text-align: center;
 } */
-.socialLink {
-    color: #ffffff;
-    border: none;    
-    display: inline-block;    
-    background: #000000;
-    text-decoration: none;
-    -webkit-transition: background 1s; 
-    transition: background 1s; 
+.projectLink {
+  color: #ffffff;
+  border: none;
+  display: inline-block;
+  background: none;
+  text-decoration: none;
 }
-.socialLink:hover {
-    background: #64c1e4;
-    color: #FFFFFF;
+.fade {
+  color: black;
+  animation: fadeIn ease-in forwards 1s;
+  -webkit-animation: fadeIn ease-out forwards 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

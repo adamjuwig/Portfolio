@@ -1,5 +1,5 @@
 import React from "react";
-import './projects.css';
+import "./projects.css";
 
 import Pitch from "./images/pitch.png";
 import Budget from "./images/budget.png";
@@ -10,26 +10,26 @@ import NoteTaker from "./images/notetakerSS.png";
 
 const Projects = () => {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center fade">
       <section className="section">
         <div class="container">
           <div class="row hidden-md-up">
             <div class="col-md-4">
-              <div class="card shadow-sm cardFlip">
+              <div class="card shadow-sm">
                 <img
                   src={Pitch}
                   alt="Pitch A Tent"
                   style={{ height: "325px" }}
                   className="center"
                 />
-                
+
                 <div class="card-block">
                   <h4 class="card-title text-center">Pitch A Tent</h4>
 
                   <a
                     href="https://adamjuwig.github.io/pitch-a-tent/"
                     target="_blank"
-                    className="text-secondary ml-2"
+                    className="text-secondary float-left ml-2 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -37,7 +37,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/pitch-a-tent/"
                     target="_blank"
-                    className="text-secondary float-right mr-2"
+                    className="text-secondary float-right mr-2 projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -62,7 +62,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/Budget-Tracker"
                     target="_blank"
-                    className="text-secondary d-flex justify-content-center"
+                    className="text-secondary d-flex justify-content-center projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -86,7 +86,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/React-Employee-Directory"
                     target="_blank"
-                    className="text-secondary d-flex justify-content-center"
+                    className="text-secondary d-flex justify-content-center projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -112,7 +112,7 @@ const Projects = () => {
                   <a
                     href="https://adamjuwig.github.io/password-generator/"
                     target="_blank"
-                    className="text-secondary ml-2"
+                    className="text-secondary float-left ml-2 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -120,7 +120,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/password-generator/"
                     target="_blank"
-                    className="text-secondary float-right mr-2"
+                    className="text-secondary float-right mr-2 projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -142,7 +142,7 @@ const Projects = () => {
                   <a
                     href="https://adamjuwig.github.io/weather-dashboard"
                     target="_blank"
-                    class="text-secondary ml-2"
+                    class="text-secondary float-left ml-2 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -150,7 +150,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/weather-dashboard"
                     target="_blank"
-                    class="text-secondary float-right mr-2"
+                    class="text-secondary float-right mr-2 projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -171,7 +171,7 @@ const Projects = () => {
                   <a
                     href="https://boiling-headland-50236.herokuapp.com/"
                     target="_blank"
-                    class="text-secondary ml-2"
+                    class="text-secondary float-left ml-2 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -179,7 +179,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/note-taker/"
                     target="_blank"
-                    class="text-secondary float-right mr-2"
+                    class="text-secondary float-right mr-2 projectLink"
                     rel="noreferrer"
                   >
                     Repo
