@@ -16,7 +16,7 @@ const Projects = () => {
           {/* TOP ROW */}
           <div className="row hidden-md-up">
             {/* PITCH A TENT */}
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Pitch}
@@ -59,7 +59,7 @@ const Projects = () => {
               </div>
             </div>
             {/* BUDGET TRACKER */}
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Budget}
@@ -91,7 +91,7 @@ const Projects = () => {
               </div>
             </div>
             {/* REACT EMPLOYEE DIRECTORY */}
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={EmpDirectory}
@@ -135,7 +135,7 @@ const Projects = () => {
           {/* SECOND ROW */}
           <div className="row">
             {/* PASSWORD GENERATOR */}
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Password}
@@ -181,7 +181,7 @@ const Projects = () => {
               </div>
             </div>
             {/* WEATHER DASHBOARD */}
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Weather}
@@ -225,7 +225,7 @@ const Projects = () => {
               </div>
             </div>
             {/* NOTE TAKER */}
-            <div className="col-sm-12 col-md-12 col-lg-4">
+            <div className="col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={NoteTaker}
