@@ -12,10 +12,10 @@ const Projects = () => {
   return (
     <div className="d-flex justify-content-center fade">
       <section className="section">
-        <div class="container">
-          <div class="row hidden-md-up">
-            <div class="col-md-4">
-              <div class="card shadow-sm">
+        <div className="container">
+          <div className="row hidden-md-up">
+            <div className="col-sm-12 col-md-12 col-lg-4">
+              <div className="card shadow-sm">
                 <img
                   src={Pitch}
                   alt="Pitch A Tent"
@@ -23,8 +23,8 @@ const Projects = () => {
                   className="center"
                 />
 
-                <div class="card-block">
-                  <h4 class="card-title text-center">Pitch A Tent</h4>
+                <div className="card-block">
+                  <h4 className="card-title text-center">Pitch A Tent</h4>
 
                   <a
                     href="https://adamjuwig.github.io/pitch-a-tent/"
@@ -46,7 +46,7 @@ const Projects = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center">
               <div className="card shadow-sm">
                 <img
                   src={Budget}
@@ -70,7 +70,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-12 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={EmpDirectory}
@@ -98,7 +98,7 @@ const Projects = () => {
           <br />
           {/* SECOND ROW */}
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-12 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Password}
@@ -128,7 +128,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-12 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Weather}
@@ -158,7 +158,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-sm-12 col-md-12 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={NoteTaker}

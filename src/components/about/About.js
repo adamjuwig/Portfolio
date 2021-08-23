@@ -14,7 +14,7 @@ const About = () => {
         />
       </div>
       <section className="section">
-        <div className="container fade col-xs-8 col-sm-8 col-md-12 col-lg-12">
+        <div className="container fade col-xs-12 col-sm-12 col-md-10 col-lg-10">
           <div className="card shadow fade">
             <div className="card-body">
               <div className="row">
