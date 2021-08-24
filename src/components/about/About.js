@@ -14,7 +14,7 @@ const About = () => {
         />
       </div>
       <section className="section">
-        <div className="container fade col-xs-12 col-sm-12 col-md-10 col-lg-10">
+        <div className="container fade col-sm-12 col-md-10 col-lg-10">
           <div className="card shadow fade">
             <div className="card-body">
               <div className="row">
@@ -44,7 +44,7 @@ const About = () => {
             </div>
           </div>
           <br />
-          <div className="d-flex justify-content-center fade">
+          <div className="d-flex justify-content-center fade sm-col-2">
             <span className="badge badge-secondary text-white p-1 m-1 font-weight-light">
               HTML/CSS
             </span>

@@ -14,9 +14,9 @@ const Projects = () => {
       <section className="section">
         <div className="container">
           {/* TOP ROW */}
-          <div className="row hidden-md-up">
+          <div className="row hidden-lg-up">
             {/* PITCH A TENT */}
-            <div className="col-sm-8 col-md-8 col-lg-4">
+            <div className="col-10 col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Pitch}
@@ -38,7 +38,7 @@ const Projects = () => {
                     <a
                       href="https://adamjuwig.github.io/pitch-a-tent/"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-left ml-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Demo
@@ -46,7 +46,7 @@ const Projects = () => {
                     <a
                       href="https://github.com/adamjuwig/pitch-a-tent/"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-right mr-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Repo
@@ -59,7 +59,7 @@ const Projects = () => {
               </div>
             </div>
             {/* BUDGET TRACKER */}
-            <div className="col-sm-8 col-md-8 col-lg-4">
+            <div className="col-10 col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Budget}
@@ -91,7 +91,7 @@ const Projects = () => {
               </div>
             </div>
             {/* REACT EMPLOYEE DIRECTORY */}
-            <div className="col-sm-8 col-md-8 col-lg-4">
+            <div className="col-10 col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={EmpDirectory}
@@ -135,7 +135,7 @@ const Projects = () => {
           {/* SECOND ROW */}
           <div className="row">
             {/* PASSWORD GENERATOR */}
-            <div className="col-sm-8 col-md-8 col-lg-4">
+            <div className="col-10 col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Password}
@@ -160,7 +160,7 @@ const Projects = () => {
                     <a
                       href="https://adamjuwig.github.io/password-generator/"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-left ml-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Demo
@@ -168,7 +168,7 @@ const Projects = () => {
                     <a
                       href="https://github.com/adamjuwig/password-generator/"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-right mr-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Repo
@@ -181,7 +181,7 @@ const Projects = () => {
               </div>
             </div>
             {/* WEATHER DASHBOARD */}
-            <div className="col-sm-8 col-md-8 col-lg-4">
+            <div className="col-10 col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={Weather}
@@ -204,7 +204,7 @@ const Projects = () => {
                     <a
                       href="https://adamjuwig.github.io/weather-dashboard/"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-left ml-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Demo
@@ -212,7 +212,7 @@ const Projects = () => {
                     <a
                       href="https://github.com/adamjuwig/weather-dashboard"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-right mr-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Repo
@@ -225,14 +225,14 @@ const Projects = () => {
               </div>
             </div>
             {/* NOTE TAKER */}
-            <div className="col-sm-8 col-md-8 col-lg-4">
+            <div className="col-10 col-sm-8 col-md-8 col-lg-4">
               <div className="card shadow-sm">
                 <img
                   src={NoteTaker}
                   alt="Note Taker"
                   style={{ height: "325px" }}
                   className="center"
-                />
+                /> 
                 <div class="overlay">
                   <div class="text">
                     <p className="h6">
@@ -246,7 +246,7 @@ const Projects = () => {
                     <a
                       href="https://boiling-headland-50236.herokuapp.com/"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-left ml-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Demo
@@ -254,7 +254,7 @@ const Projects = () => {
                     <a
                       href="https://github.com/adamjuwig/note-taker"
                       target="_blank"
-                      className="text-secondary font-weight-bold float-right mr-4 projectLink"
+                      className="text-secondary font-weight-bold d-block projectLink"
                       rel="noreferrer"
                     >
                       Repo

@@ -11,15 +11,16 @@ const Navbar = (props) => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light sticky-top navbar-custom shadow">
+      <div className="container-fluid">
       <Link to="/" className="navbar-brand text-white">
         <h3 className="textShadow logo">ADAM JUWIG</h3>
       </Link>
       <button
-        class="custom-toggler navbar-toggler"
+        className="custom-toggler navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarsExample09"
-        aria-controls="navbarsExample09"
+        data-target="#navbarHook"
+        aria-controls="navbarHook"
         aria-expanded={!isNavCollapsed ? true : false}
         aria-label="Toggle navigation"
         onClick={handleNavCollapse}
@@ -29,7 +30,7 @@ const Navbar = (props) => {
 
       <div
         className={`${isNavCollapsed ? "collapse" : ""} navbar-collapse`}
-        id="navbarsExample09"
+        id="navbarHook"
       >
         <ul className="navbar-nav ml-auto text-white">
           <li className="nav-item active d-inline">
@@ -55,6 +56,7 @@ const Navbar = (props) => {
             </Link>
           </li>
         </ul>
+      </div>
       </div>
     </nav>
   );
