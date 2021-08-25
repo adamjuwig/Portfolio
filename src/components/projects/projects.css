@@ -1,10 +1,11 @@
 .projectLink {
   color: #ffffff;
+  background-color: black;
   border: none;
-
   background: none;
-  text-decoration: none !important;
+  text-decoration: none!important;
 }
+
 .fade {
   color: black;
   animation: fadeIn ease-in forwards 1s;

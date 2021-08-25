@@ -37,7 +37,7 @@ const Projects = () => {
                   <a
                     href="https://adamjuwig.github.io/pitch-a-tent/"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -45,7 +45,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/pitch-a-tent/"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -79,7 +79,7 @@ const Projects = () => {
                   <a
                     href="https://boiling-headland-50236.herokuapp.com/"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -87,7 +87,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/note-taker"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -120,6 +120,14 @@ const Projects = () => {
                     and hooks; a user can sort by first name or search by last
                     name.
                   </p>
+                  <a
+                    href="https://adamjuwig.github.io/React-Employee-Directory"
+                    target="_blank"
+                    className="text-secondary font-weight-bold p-4 projectLink"
+                    rel="noreferrer"
+                  >
+                    Demo
+                  </a>
                   <a
                     href="https://github.com/adamjuwig/budget-tracker/"
                     target="_blank"
@@ -167,7 +175,7 @@ const Projects = () => {
                   <a
                     href="https://adamjuwig.github.io/password-generator/"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -175,7 +183,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/password-generator/"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -210,7 +218,7 @@ const Projects = () => {
                   <a
                     href="https://adamjuwig.github.io/weather-dashboard/"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Demo
@@ -218,7 +226,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/adamjuwig/weather-dashboard"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold p-4 projectLink"
                     rel="noreferrer"
                   >
                     Repo
