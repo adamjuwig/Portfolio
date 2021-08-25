@@ -57,25 +57,37 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* BUDGET TRACKER */}
+          {/* NOTE TAKER */}
           <div className="col-12 col-sm-12 col-md-12 col-lg-4 pb-4">
             <div className="card shadow-sm">
               <img
-                src={Budget}
-                alt="Budget Tracker"
+                src={NoteTaker}
+                alt="Note Taker"
                 style={{ height: "325px" }}
-                className="center img-thumbnail"
+                className="center"
               />
               <div class="overlay">
                 <div class="text">
                   <p className="h6">
-                    A progressive web application that utilizes a service worker
-                    to allow users to enter online and offline data.
+                    Create a note by adding a title and text to body then saving
+                    by clicking the save icon in the top right corner. Users can
+                    delete old notes by clicking the trash can icon in the top
+                    right corner. This app uses an Express.JS back end - note
+                    data is sent and retrieved via JSON file.
                   </p>
+
                   <a
-                    href="https://github.com/adamjuwig/budget-tracker/"
+                    href="https://boiling-headland-50236.herokuapp.com/"
                     target="_blank"
-                    className="text-secondary font-weight-bold text-center projectLink"
+                    className="text-secondary font-weight-bold d-block projectLink"
+                    rel="noreferrer"
+                  >
+                    Demo
+                  </a>
+                  <a
+                    href="https://github.com/adamjuwig/note-taker"
+                    target="_blank"
+                    className="text-secondary font-weight-bold d-block projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -83,7 +95,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-block">
-                <h4 className="card-title text-center">Budget Tracker - PWA</h4>
+                <h4 className="card-title text-center">Note Taker</h4>
               </div>
             </div>
           </div>
@@ -218,37 +230,25 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* NOTE TAKER */}
+          {/* BUDGET TRACKER */}
           <div className="col-12 col-sm-12 col-md-12 col-lg-4 pb-4">
             <div className="card shadow-sm">
               <img
-                src={NoteTaker}
-                alt="Note Taker"
+                src={Budget}
+                alt="Budget Tracker"
                 style={{ height: "325px" }}
-                className="center"
+                className="center img-thumbnail"
               />
               <div class="overlay">
                 <div class="text">
                   <p className="h6">
-                    Create a note by adding a title and text to body then saving
-                    by clicking the save icon in the top right corner. Users can
-                    delete old notes by clicking the trash can icon in the top
-                    right corner. This app uses an Express.JS back end - note
-                    data is sent and retrieved via JSON file.
+                    A progressive web application that utilizes a service worker
+                    to allow users to enter online and offline data.
                   </p>
-
                   <a
-                    href="https://boiling-headland-50236.herokuapp.com/"
+                    href="https://github.com/adamjuwig/budget-tracker/"
                     target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
-                    rel="noreferrer"
-                  >
-                    Demo
-                  </a>
-                  <a
-                    href="https://github.com/adamjuwig/note-taker"
-                    target="_blank"
-                    className="text-secondary font-weight-bold d-block projectLink"
+                    className="text-secondary font-weight-bold text-center projectLink"
                     rel="noreferrer"
                   >
                     Repo
@@ -256,7 +256,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="card-block">
-                <h4 className="card-title text-center">Note Taker</h4>
+                <h4 className="card-title text-center">Budget Tracker - PWA</h4>
               </div>
             </div>
           </div>
