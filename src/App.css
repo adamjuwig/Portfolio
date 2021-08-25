@@ -1,15 +1,15 @@
 * {
   margin: 0;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 .App {
   text-align: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
-body{
-  font-family: 'Montserrat';  
+body {
+  font-family: "Montserrat";
 }
 
 .App-logo {
@@ -49,7 +49,5 @@ body{
 
 .navbar-custom {
   background-color: #64c1e4;
-  color: #ffffff; 
-  width: auto;
+  color: #ffffff;
 }
-

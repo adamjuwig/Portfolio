@@ -31,7 +31,7 @@ const About = () => {
                   bootcamp through the University of Arizona. My journey in web
                   development started back in the days of Geocities and
                   Angelfire, where I was immediately drawn in by the concept of
-                  making things and colors appear on screens by writing in code.
+                  making things appear on screens by writing in code.
                   I am a former professional musician and currently a restaurant
                   general manager. Both, of which have taught me about business
                   management, client relations, problem solving, organization
@@ -44,7 +44,7 @@ const About = () => {
             </div>
           </div>
           <br />
-          <div className="d-flex justify-content-center fade sm-col-2">
+          {/* <div className="d-flex justify-content-center fade sm-col-2">
             <span className="badge badge-secondary text-white p-1 m-1 font-weight-light">
               HTML/CSS
             </span>
@@ -87,7 +87,7 @@ const About = () => {
             <span className="badge badge-secondary text-white p-1 m-1 font-weight-light">
               AJAX
             </span>
-          </div>
+          </div> */}
         </div>
       </section>
     </div>

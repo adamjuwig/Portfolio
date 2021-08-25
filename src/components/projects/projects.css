@@ -1,13 +1,9 @@
-/* .link {
-    color: rgb(153, 95, 95);
-    text-align: center;
-} */
 .projectLink {
   color: #ffffff;
   border: none;
-  
+
   background: none;
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 .fade {
   color: black;
@@ -33,7 +29,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #ffffff;
 }
 
@@ -42,7 +38,7 @@
 }
 
 .text {
-  color: #000000;  
+  color: #000000;
   position: relative;
   top: 50%;
   left: 50%;
